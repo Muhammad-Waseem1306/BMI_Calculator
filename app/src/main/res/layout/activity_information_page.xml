@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Information_page"
+    android:background="@drawable/bmi_backgroud"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/limitations_top"
+        android:textColor="#F60202"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+    <TextView
+        android:id="@+id/define"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="200dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/underweight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/underweight_text"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="#23C53E"/>
+        <Button
+            android:id="@+id/normal_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/normal_weight_text"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginStart="15dp"
+            android:backgroundTint="#23C53E"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <Button
+            android:id="@+id/overweight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/overweight_text"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginStart="26dp"
+            android:backgroundTint="#23C53E"/>
+
+        <Button
+            android:id="@+id/obese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/obese_text"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginStart="55dp"
+            android:backgroundTint="#23C53E"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnlimitatio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#FF5252"
+        android:layout_marginTop="85dp"
+        android:text="@string/bmi_limitation"/>
+
+
+
+
+</LinearLayout>

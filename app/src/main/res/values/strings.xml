@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="inches_unit">Inches\n</string>
+    <string name="bmi_calculator_title">BMI Calculator</string>
+    <string name="weight_label_text">Enter Weight in Kilogram</string>
+    <string name="weight_hint">Weight in kg\n</string>
+    <string name="height_label_text"><![CDATA[Enter Height in Feet & Inches]]></string>
+    <string name="feet_hint">Feet\n</string>
+    <string name="inches">Inches</string>
+    <string name="feet_unit">Feet</string>
+    <string name="bmi">BMI :</string>
+    <string name="read_about_category">Read About Category</string>
+    <string name="calculate_bmi">Calculate BMI</string>
+    <string name="error_empty_fields">Fill in all fields</string>
+    <string name="invalid_input">Invalid Input</string>
+    <string name="invalid_weight">Invalid Weight</string>
+    <string name="bmi_result_format">Your BMI is %.2f (%s)</string>
+    <string name="underweight_text">Underweight</string>
+    <string name="normal_weight_text">Normal weight</string>
+    <string name="overweight_text">Overweight</string>
+    <string name="obese_text">Obese</string>
+    <string name="bmi_limitation">BMI Limitation</string>
+
+    <string name="underweight_details">BMI less than 18.5 : Individuals in this category may have a higher risk of health problems due to being underweight, such as malnutrition, weakened immune system, and osteoporosis.</string>
+
+    <string name="normal_weight_details">BMI between 18.5 and 24.9 : Individuals in this category are generally considered to have a healthy weight range. They have a lower risk of developing weight-related health problems.</string>
+
+    <string name="over_weight_details"> BMI between 25 and 29.9 : Individuals in this category may have a higher risk of developing health problems such as heart disease, high blood pressure, and type 2 diabetes.</string>
+
+    <string name="obese_details">BMI 30 or greater :Individuals in this category have a significantly higher risk of developing serious health problems, including heart disease, stroke, type 2 diabetes, and certain types of cancer.</string>
+
+    <string name="limitations_top">Always consult a healthcare professional for personalized health assessments, recommendations regarding weight management, and to receive a comprehensive evaluation of your health status beyond just the BMI category.</string>
+
+    <string name="limitations">Does not Distinguish Between Fat and Muscle, Does not Account for Body Composition, Does not Consider Age or Gender, Does not Consider Pregnancy, Does not Consider Muscle Loss.</string>
+
+    <string name="bmi_define">A Body Mass Index (BMI) calculator helps you estimate your body fat based on your height and weight.</string>
+
+</resources>
