@@ -13,10 +13,10 @@ This is a simple BMI (Body Mass Index) calculator Android app developed using Ko
 
 To run this project on your local machine, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/Muhammad_Waseem/bmi-calculator.git` OR you can download zip file 
+1. Clone this repository: `git clone https://github.com/Muhammad-Waseem1306/BMI_Calculator.git` OR you can download zip file 
 2. Open the project in Android Studio.
 3. Build and run the project on an emulator or physical device.
-
+   
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
