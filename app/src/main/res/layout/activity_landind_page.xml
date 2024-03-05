@@ -1,37 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".landind_page"
-    android:background="@drawable/bmi_backgroud"
-    android:orientation="vertical">
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="200dp"
-        android:src="@drawable/bmi_logo"
-        android:layout_marginTop="93dp"
-        android:layout_marginStart="75dp"/>
-    <TextView
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
-        android:text="@string/bmi_define"
-        android:layout_marginTop="70dp"
-        android:layout_marginStart="89dp"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        />
-    <Button
-        android:id="@+id/landingbtncalculate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/calculate_bmi"
-        android:textSize="20sp"
-        android:backgroundTint="@color/black"
-        android:textStyle="bold"
-        android:layout_marginTop="175dp"
-        android:layout_marginStart="110dp"/>
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bmi_backgroud"
+        android:orientation="vertical"
+        tools:context=".LandindPage">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="93dp"
+            android:src="@drawable/bmi_logo" />
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="89dp"
+            android:layout_marginTop="70dp"
+            android:text="@string/bmi_define"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/landingbtncalculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="175dp"
+            android:backgroundTint="@color/black"
+            android:text="@string/calculate_bmi"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
 
-</LinearLayout>
+    </LinearLayout>
+</layout>
