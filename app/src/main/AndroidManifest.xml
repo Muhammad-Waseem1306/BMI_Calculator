@@ -13,10 +13,10 @@
         android:theme="@style/Theme.BMICalculator"
         tools:targetApi="31">
         <activity
-            android:name=".Information_page"
+            android:name=".InformationPage"
             android:exported="false" />
         <activity
-            android:name=".landind_page"
+            android:name=".LandindPage"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
